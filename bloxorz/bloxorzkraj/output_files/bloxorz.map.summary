@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Feb 06 13:46:55 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : bloxorz
+Top-level Entity Name : bloxorz
+Family : Cyclone III
+Total logic elements : 1,111
+    Total combinational functions : 1,082
+    Dedicated logic registers : 185
+Total registers : 185
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

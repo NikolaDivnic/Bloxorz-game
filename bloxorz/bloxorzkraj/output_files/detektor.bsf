@@ -1,0 +1,134 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 200 272)
+	(text "detektor" (rect 5 0 51 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 240 25 252)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "validmape" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "validmape" (rect 21 27 77 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "validcilja" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "validcilja" (rect 21 43 68 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "validkocke1" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "validkocke1" (rect 21 59 87 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "validkocke2" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "validkocke2" (rect 21 75 87 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "X[15..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "X[15..0]" (rect 21 91 64 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "Y[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "Y[15..0]" (rect 21 107 65 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "clk" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "clk" (rect 21 123 36 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "FINISH_X[15..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "FINISH_X[15..0]" (rect 21 139 108 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "FINISH_Y[15..0]" (rect 0 0 88 14)(font "Arial" (font_size 8)))
+		(text "FINISH_Y[15..0]" (rect 21 155 109 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "KOCKA_X[15..0]" (rect 0 0 94 14)(font "Arial" (font_size 8)))
+		(text "KOCKA_X[15..0]" (rect 21 171 115 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "KOCKA_Y[15..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
+		(text "KOCKA_Y[15..0]" (rect 21 187 116 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "istiXY" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "istiXY" (rect 21 203 54 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "keyPressed" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "keyPressed" (rect 21 219 88 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "ispala" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ispala" (rect 130 27 163 41)(font "Arial" (font_size 8)))
+		(line (pt 184 32)(pt 168 32))
+	)
+	(port
+		(pt 184 48)
+		(output)
+		(text "nacilju" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "nacilju" (rect 128 43 163 57)(font "Arial" (font_size 8)))
+		(line (pt 184 48)(pt 168 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 240))
+	)
+)
